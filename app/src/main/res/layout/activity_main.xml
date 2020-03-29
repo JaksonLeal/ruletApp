@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_prueba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvContJuego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contador de partidas" />
+
+        <TextView
+            android:id="@+id/tvListEnJuego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="numeros en juego" />
+
+        <TextView
+            android:id="@+id/tvCualNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvSet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="first set"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="-----------------------------------------------------------------------------------------" />
+
+        <TextView
+            android:id="@+id/tvSet2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="second set"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="-----------------------------------------------------------------------------------------" />
+
+        <TextView
+            android:id="@+id/tvSet3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="third set"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="ENVIAR" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
